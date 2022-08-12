@@ -1,0 +1,180 @@
+body{
+    background-image: url("./Assests/girlhand.jpg");
+    background-size:30% 100vh;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* ---navbar section--------------- */
+
+
+.nav-bar{
+display:flex;
+gap:30px;
+align-items: center;
+width:90%;
+margin: 20px auto;
+}
+
+.nav-logo{
+    flex-grow:1;
+}
+.nav-logo img{
+    width:90px;
+
+}
+
+.nav-line{
+    width:300px;
+    border-top: 1.2px solid;
+    flex-grow:0;
+
+}
+
+.ul-items{
+    display:flex;
+    list-style:none;
+color:#808080;
+flex-grow:1;
+justify-content: space-between;
+}
+
+.li-active{
+    font-weight:600;
+    color:#000000;
+}
+
+/* ------hero section--------- */
+.hero{
+    width:60%;
+    margin-left:auto;
+    margin-right:70px;
+}
+
+
+
+/* ------creativity section------- */
+
+
+.creativty-section{
+    display:flex;
+    /* border:solid; */
+    gap:130px;
+    justify-content: space-between;
+    
+}
+
+
+.cretvty-heading{
+    line-height:2px; 
+
+}
+.cretvty{
+    -webkit-text-stroke: 1px black;
+    font-size:7rem;
+    color:transparent;
+
+}
+.tivity-text{
+   position:relative;
+    font-size:7rem;
+    left:60%;
+
+}
+
+.crvty-prg-btn{
+align-self: flex-end;
+}
+.crtvty-prgh{
+    font-size:26px;
+    color:#808080;
+}
+.btn{
+    background-color: #000000;
+    color:#ffffff;
+    padding:10px 40px;
+}
+.icons{
+    width:20px;
+    cursor:pointer;
+}
+.fb{
+    width:15px;
+}
+.media-icons{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+/* ------------hero section---------- */
+
+.bottom-section{
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+
+.chain-ul{
+    list-style: none;
+    line-height: 58px;
+}
+
+.chain-item{
+    color:#808080;
+}
+
+.active-text{
+    font-weight:600;
+    color: #000000;
+}
+
+.chain-section{
+    display:flex;
+    align-items: center;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border:solid;
+    border-radius:50%;
+    background-color: #000000;
+}
+
+.chain{
+    height:40px;
+    border-left: 2px solid;
+    position:relative;
+    left:5px;
+}
+
+
+.dancing-img{
+    width:300px;
+    height:300px;
+}
+
+.line-long{
+    height:100px;
+    border-left: 1.3px solid;
+    position:relative;
+    left:13px;
+    bottom:-20px;
+}
+
+.fa-solid{
+font-size: 2rem;    
+}
+.arrow-section{
+    align-self: center;
+}
+.grey{
+    color:#808080;
+}
+
+
+
