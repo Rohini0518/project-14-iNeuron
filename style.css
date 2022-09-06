@@ -31,7 +31,6 @@ margin: 20px auto;
     width:300px;
     border-top: 1.2px solid;
     flex-grow:0;
-
 }
 
 .ul-items{
@@ -46,7 +45,9 @@ justify-content: space-between;
     font-weight:600;
     color:#000000;
 }
-
+.toogle-btn{
+    display:none;
+}
 /* ------hero section--------- */
 .hero{
     width:60%;
@@ -76,13 +77,11 @@ justify-content: space-between;
     -webkit-text-stroke: 1px black;
     font-size:7rem;
     color:transparent;
-
 }
 .tivity-text{
    position:relative;
     font-size:7rem;
     left:60%;
-
 }
 
 .crvty-prg-btn{
@@ -116,6 +115,7 @@ align-self: flex-end;
     display:flex;
     justify-content: space-between;
     margin-top:40px;
+
 }
 
 .chain-ul{
@@ -155,7 +155,8 @@ align-self: flex-end;
 
 .dancing-img{
     width:300px;
-    height:300px;
+    height:275px;
+    border-radius: 10px;
 }
 
 .line-long{
@@ -178,3 +179,126 @@ font-size: 2rem;
 
 
 
+
+
+/* ----------------media queries----------------- */
+
+@media screen and (max-width:1050px){
+.nav-line{
+    width:200px;
+}
+
+.cretvty{
+    font-size:5rem;
+}
+.tivity-text{
+    font-size:5rem;
+}
+
+
+}
+
+@media screen and (max-width:780px){
+
+    .nav-line{
+        width:120px;
+    }
+    .nav-bar{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+
+    .creativty-section{
+        display:flex;
+        /* border:solid; */
+        gap:60px;
+        justify-content: center;
+
+    }
+    .cretvty{
+        font-size:4rem;
+    }
+    .tivity-text{
+        font-size:4rem;
+        left:40%;
+    }
+
+    .dancing-img{
+        width:250px;
+        height:250px;
+    }
+    .dance-prg{
+        display:none;
+    }
+    .chain-ul{
+        line-height: 45px;
+    }
+    .dance-text{
+        margin-left:30px;
+
+    }
+    .arrow-section{
+        margin-left:30px;
+
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+
+
+.ul-items{
+    display:none;
+}
+
+.toogle-btn{
+    display:flex;
+    width:30px;
+    align-items: flex-end;
+    float: right;
+}
+
+.creativty-section{
+    display:flex;
+    gap:80px;
+    justify-content: center;
+    position: relative;
+    left:20%;
+
+
+}
+
+.cretvty{
+    font-size:3rem;
+}
+.tivity-text{
+    font-size:3rem;
+}
+.crvty-prg-btn{
+    display: none;
+}
+
+.bottom-section{
+    display:flex;
+flex-wrap: wrap; 
+}
+.chain-section{
+position:relative;
+left:40%;
+}
+.chain{
+    height:30px;
+}
+.dancing-img{
+    width:250px;
+    height:175px;
+    border-radius: 20px;
+margin-left:10px;
+}
+.arrow-section{
+    display:none;
+}
+
+}

@@ -16,6 +16,9 @@ This landing page, took me almost 4 hrs to complete,this is my project 14 in ful
 
 ![project 14](./screenshot.png)
 
+## Here is screen shot of responsive view:
+![project 14](mb-rspnsve.png)
+
 ## Here is live link
 [Live link](https://rohini-project-14.netlify.app/)
 
